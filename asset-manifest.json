@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/harimiriyam/website.git/static/css/main.2cce8147.chunk.css",
-    "main.js": "/harimiriyam/website.git/static/js/main.5098a3b0.chunk.js",
-    "main.js.map": "/harimiriyam/website.git/static/js/main.5098a3b0.chunk.js.map",
-    "runtime~main.js": "/harimiriyam/website.git/static/js/runtime~main.981b12bf.js",
-    "runtime~main.js.map": "/harimiriyam/website.git/static/js/runtime~main.981b12bf.js.map",
-    "static/js/2.b41502e9.chunk.js": "/harimiriyam/website.git/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/harimiriyam/website.git/static/js/2.b41502e9.chunk.js.map",
-    "index.html": "/harimiriyam/website.git/index.html",
-    "precache-manifest.905a54a4641a9a3d4369876607401bf6.js": "/harimiriyam/website.git/precache-manifest.905a54a4641a9a3d4369876607401bf6.js",
-    "service-worker.js": "/harimiriyam/website.git/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/harimiriyam/website.git/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/harimiriyam/website.git/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.2cce8147.chunk.css",
+    "main.js": "/static/js/main.28647029.chunk.js",
+    "main.js.map": "/static/js/main.28647029.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.b41502e9.chunk.js": "/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.054774adbe886ee6e3c29227ef1745b5.js": "/precache-manifest.054774adbe886ee6e3c29227ef1745b5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   }
 }
