@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
+import Header from './Header/Header'
+import Main from './Main/Main';
+import Footer from './Footer/Footer';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isMenu : false
+        };
+        this.handleMenuClick = this.handleMenuClick.bind(this);
+    }
+    
+    handleMenuClick = () => {
+        this.setState({
+            isMenu: !this.state.isMenu
+        });
+    }
+
+    onMenuItemClick = (menuItem) => {
+        this.setState({
+            isMenu: !this.state.isMenu
+        });
+
+        this.props.history.push(menuItem);
+    }
+
+    render() {
+        return(
+        <div className="App">
+            <Header handleMenuClick={this.handleMenuClick} isMenu={this.state.isMenu}/>
+            <Main onMenuItemClick={this.onMenuItemClick} isMenu={this.state.isMenu}/>
+            <Footer />
+        </div>
+        )
+    }
 }
 
-export default App;
+export default withRouter(App);

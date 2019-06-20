@@ -1,0 +1,27 @@
+.App-main {
+    height: 85%;
+    color: white;
+    display: table;
+    text-align: center;
+    margin: auto;
+}
+
+.main-content {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.menu-items li {
+    list-style: none;
+    padding: 8px 0px;
+}
+
+.menu-items li a {
+    font-family: Rajdhani;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+}
+
+.menu-icon span {
+    background: white !important;
+}
