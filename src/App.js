@@ -20,9 +20,10 @@ class App extends Component {
         });
     }
 
-    onMenuItemClick = (menuItem) => {
+    onMenuItemClick = (menuItem, isMobile) => {
+        console.log('isMobile :'+isMobile);
         this.setState({
-            isMenu: !this.state.isMenu
+            isMenu: isMobile && !this.state.isMenu
         });
 
         this.props.history.push(menuItem);
@@ -31,7 +32,7 @@ class App extends Component {
     render() {
         return(
         <div className="App">
-            <Header handleMenuClick={this.handleMenuClick} isMenu={this.state.isMenu}/>
+            <Header handleMenuClick={this.handleMenuClick} onMenuItemClick={this.onMenuItemClick} isMenu={this.state.isMenu}/>
             <Main onMenuItemClick={this.onMenuItemClick} isMenu={this.state.isMenu}/>
             <Footer />
         </div>
